@@ -1,5 +1,5 @@
 # Tordos FC ⚽
-```
+
 App web full-stack para registrar y visualizar estadísticas de fútbol del grupo de amigos "Tordos". Permite cargar partidos, registrar goles y asistencias, puntuar a los compañeros post-partido y ver estadísticas históricas.
 
 ## Screenshots
@@ -24,6 +24,7 @@ App web full-stack para registrar y visualizar estadísticas de fútbol del grup
 - **Deploy**: Vercel (frontend) + Render (backend) + Supabase (DB)
 
 ## Estructura del Proyecto
+```
 papis-app/
 ├── frontend/          # Aplicación React
 │   ├── src/
