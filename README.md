@@ -5,22 +5,17 @@ App web full-stack para registrar y visualizar estadísticas de fútbol del grup
 ## Screenshots
 
 ### Dashboard
-![Dashboard](<img width="1919" height="912" alt="Screenshot 2026-06-11 182911" src="https://github.com/user-attachments/assets/0b440e44-6e6e-4a34-a8b3-fb49a5b55860" />
-)
+![Dashboard](https://github.com/user-attachments/assets/0b440e44-6e6e-4a34-a8b3-fb49a5b55860)
 
 ### Cargar Partido
-![Cargar Partido 1](<img width="1900" height="912" alt="Screenshot 2026-06-11 183125" src="https://github.com/user-attachments/assets/25366726-c83b-4e7a-89e2-b64047b599fb" />
-)
-![Cargar Partido 2](<img width="1900" height="910" alt="Screenshot 2026-06-11 183156" src="https://github.com/user-attachments/assets/9aca2ebe-1449-4861-9d0e-0ec7add70a3b" />
-)
+![Cargar Partido 1](https://github.com/user-attachments/assets/25366726-c83b-4e7a-89e2-b64047b599fb)
+![Cargar Partido 2](https://github.com/user-attachments/assets/9aca2ebe-1449-4861-9d0e-0ec7add70a3b)
 
 ### Estadísticas
-![Estadísticas](<img width="1900" height="909" alt="Screenshot 2026-06-11 183233" src="https://github.com/user-attachments/assets/cc7ac253-6326-4f9f-a6ca-b617cdaead3b" />
-)
+![Estadísticas](https://github.com/user-attachments/assets/cc7ac253-6326-4f9f-a6ca-b617cdaead3b)
 
 ### Detalle Partido
-![Detalle Partido](<img width="1900" height="910" alt="Screenshot 2026-06-11 183349" src="https://github.com/user-attachments/assets/abe58acf-c68c-407d-bf91-82167263fc6c" />
-)
+![Detalle Partido](https://github.com/user-attachments/assets/abe58acf-c68c-407d-bf91-82167263fc6c)
 
 ## Stack
 - **Frontend**: React + TypeScript + Tailwind CSS (Vite)
