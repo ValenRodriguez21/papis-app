@@ -1,17 +1,15 @@
-# Tordos FC - App de Estadísticas
-
-App web para registrar y visualizar estadísticas de partidos de fútbol del grupo de amigos "Tordos".
-
-## Stack
-
-- **Frontend**: React + TypeScript + Tailwind CSS (Vite)
-- **Backend**: Node.js + Express
-- **Base de datos**: PostgreSQL
-- **Auth**: JWT (un usuario por jugador)
 
 ## Estructura del Proyecto
-
+# Tordos FC ⚽
 ```
+App web full-stack para registrar y visualizar estadísticas de fútbol del grupo de amigos "Tordos". Permite cargar partidos, registrar goles y asistencias, puntuar a los compañeros post-partido y ver estadísticas históricas.
+
+## Stack
+- **Frontend**: React + TypeScript + Tailwind CSS (Vite)
+- **Backend**: Node.js + Express + TypeScript
+- **Base de datos**: PostgreSQL
+- **Deploy**: Vercel (frontend) + Render (backend) + Supabase (DB)
+
 papis-app/
 ├── frontend/          # Aplicación React
 │   ├── src/
@@ -83,15 +81,6 @@ psql -d tordos_fc -f src/schema.sql
 npm run seed
 ```
 
-Esto creará 7 jugadores con usuarios:
-- Usuario: `peque`, Contraseña: `peque123`
-- Usuario: `gione`, Contraseña: `gione123`
-- Usuario: `chonfra`, Contraseña: `chonfra123`
-- Usuario: `fabri`, Contraseña: `fabri123`
-- Usuario: `dela`, Contraseña: `dela123`
-- Usuario: `chingolo`, Contraseña: `chingolo123`
-- Usuario: `davo`, Contraseña: `davo123`
-
 7. Iniciar el servidor backend:
 ```bash
 npm run dev
@@ -141,12 +130,14 @@ El frontend correrá en `http://localhost:5173`
 ## Características
 
 - ✅ Autenticación con JWT
-- ✅ Registro de partidos con goles y resultados
-- ✅ Seguimiento de participaciones individuales
-- ✅ Sistema de MVP por partido
+- ✅ Registro de partidos con goles, asistencias y resultado
+- ✅ Sistema de puntuaciones post-partido (1-10) entre compañeros
+- ✅ Votación de MVP por partido
+- ✅ Notificación de votaciones pendientes
 - ✅ Estadísticas históricas por jugador
-- ✅ Historial de partidos
-- ✅ Interfaz responsiva con Tailwind CSS
+- ✅ Historial de partidos con detalle
+- ✅ Interfaz responsiva (mobile-friendly)
+- ✅ Protección de rutas y manejo de token expirado
 
 ## Jugadores Precargados
 
